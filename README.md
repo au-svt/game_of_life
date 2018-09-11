@@ -2,8 +2,8 @@
 Using Python tkinter , conway's game of life - 0 player
 
 ### **Pre Requirements :**
-  1.Python3 (or Python2),and 
-  2.installed tkinter (or Tkinter for python2) module, using pip3 installer / any other way
+  1. Python3 (or Python2),and 
+  2. installed tkinter (or Tkinter for python2) module, using pip3 installer / any other way
   
 #### WHAT IS CONWAY'S GAME OF LIFE :
   Each unit(rectangle) acts as a cell (alive/dead)
@@ -65,11 +65,11 @@ Using Python tkinter , conway's game of life - 0 player
     Type=Application
     '''
     
-   image file is uploaded in the repository, wherever u save the image, write it's address in Icon
-   exec is the address of the executable script u did in 1st point.
-   *also, save the .desktop file in '~/.local/share/applications/' to make application available in 'Applications'* 
+   * image file is uploaded in the repository, wherever u save the image, write it's address in Icon
+   * exec is the address of the executable script u did in 1st point.
+   * also, save the .desktop file in '~/.local/share/applications/' to make application available in 'Applications'* 
    
    
-#####ENJOY !!
+##### ENJOY !!
  
     
