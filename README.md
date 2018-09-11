@@ -1,7 +1,7 @@
 # Game-of-LIFE-
 Using Python tkinter , conway's game of life - 0 player
 
-**Pre Requirements :**
+###**Pre Requirements :**
   1.Python3 (or Python2),and 
   2.installed tkinter (or Tkinter for python2) module, using pip3 installer / any other way
   
@@ -11,13 +11,13 @@ Using Python tkinter , conway's game of life - 0 player
     no further input req , for that particular state generations
   Each cell alive/ dead can be alive/dead in next generation, this depends on rules:
   
-  **The Rules**
-    *For a space that is 'populated':*
-        Each cell with one or no neighbors dies, as if by solitude.
-        Each cell with four or more neighbors dies, as if by overpopulation.
-        Each cell with two or three neighbors survives.
-    *For a space that is 'empty' or 'unpopulated'*
-        Each cell with three neighbors becomes populated.
+  #####The Rules
+    * For a space that is 'populated':*
+        a. Each cell with one or no neighbors dies, as if by solitude.
+        b. Each cell with four or more neighbors dies, as if by overpopulation.
+        c. Each cell with two or three neighbors survives.
+    * For a space that is 'empty' or 'unpopulated'*
+        a. Each cell with three neighbors becomes populated.
  
  ### FEATURES OF THIS SCRIPT:
  1. Fixed no of cells in a population, currently 50x75, though can be changed in script
