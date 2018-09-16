@@ -49,23 +49,23 @@ Using Python tkinter , conway's game of life - 0 player
   #### OPTIONAL
   to make it into an dekstop(ubuntu/debian/somewhat similar in mac)application
   1. make the py script executable 
-    '''
-    chmod +x <filename.py>
-    '''
-    in terminal.
+     ```
+     chmod +x <filename.py>
+     ```
+     in terminal.
   2.add this line on top of the .py script (python3/ python or as it is there in ur pc)
-    '''python3
+    ```python3
     #!/usr/bin/env python3
-    '''
+    ```
   3.make a text file with extension **.desktop** on desktop, and write following into it:
-    '''
+    ```
     [Desktop Entry]
     Version=1.0
     Name=GAME oF LiFE
     Exec=/home/ponyket/.. ../GOL.ani.py
     Icon=/home/ponyket/.. ../gol_yel_edited.png
     Type=Application
-    '''
+    ```
     
    * image file is uploaded in the repository, wherever u save the image, write it's address in Icon
    * exec is the address of the executable script u did in 1st point.
