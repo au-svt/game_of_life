@@ -24,6 +24,7 @@ Using Python tkinter , conway's game of life - 0 player
  2. each cell (gray -dead, yellow - alive), is stored in numpy integer array (50x75), called grid:
     * if value of grid[i][j] =1 ,alive ;and if 0, dead
     * one time iteration on whole array to draw rectangles in canvas
+    ![alt text](screenshots/gol_window.png)
  3. Primary Buttons -
     * Start -starts showing next generations , with some speed (inverse of time delay), which can be controlled by 'Speed' scaler
       a. 'rules' function checks the rules on each cell in array
@@ -38,11 +39,12 @@ Using Python tkinter , conway's game of life - 0 player
     * choose a init state and 'go'; then press start/next
     * go - clears the canvas and calls the 1 time called func again to draw all rectangles.
  5. CUSTOM:
+    ![alt text](screenshots/gol_custom_window.png)
   * opens new window, copies current grid, draw rectangles(this time these are stored in a dict),based on that grid in this new window
   * each cell 'binded' with a function to toggle col as well as value in grid on mouse click
   * after custom updation on grid, 'clone' button sets cur grid equal to the parent /main/original grid and closes this window updating the changes in original grid
   * work required on : option menu and go button and 'remember me' button in new window that opens
-  
+  ![alt text](screenshots/gol_custome-d.png)
   
   #### OPTIONAL
   to make it into an dekstop(ubuntu/debian/somewhat similar in mac)application
