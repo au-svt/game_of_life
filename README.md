@@ -65,10 +65,14 @@ Using Python tkinter , conway's game of life - 0 player
       Exec=/home/ponyket/.. ../GOL.ani.py
       Icon=/home/ponyket/.. ../gol_yel_edited.png
       Type=Application
+
+      Name[en_IN]=GOL      
+
       ```
         ![alt text](screenshots/gol_app_live.png)  
    * image file is uploaded in the repository, wherever u save the image, write it's address in Icon
    * exec is the address of the executable script u did in 1st point.
+   * Name[en_IN] is for naming the applciation you see
    * also, save the .desktop file in '~/.local/share/applications/' to make application available in 'Applications'* 
    
    
