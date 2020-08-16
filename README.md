@@ -55,7 +55,7 @@ Using Python tkinter , conway's game of life - 0 player
      in terminal.
   2. add this line on top of the .py script (python3/ python or as it is there in ur pc)
       ```python3
-       #!/usr/bin/env python3
+     #!/usr/bin/env python3
       ```
   3. make a text file with extension **.desktop** on desktop, and write following into it:
       ```c
